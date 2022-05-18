@@ -16,7 +16,9 @@
   </head>
   <body>
     <div class="container">
-        <div class="weather-app">
+        <div class="weather-app-wrapper">
+          <div class="weather-app">
+          <div class="overview">
     <h1>New York, USA</h1>
     <ul>
       <li>Friday 05:00</li>
@@ -24,11 +26,14 @@
     </ul>
     <div class="row">
       <div class="col-6">
+        <div class="clearfix weather-temperature">
         <img
           src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
           alt="Partly cloudy"
+          class="float-left"
         />
-        12 °C °F
+        <div class="float-left">
+        <strong>12 </strong><span class="units">°C <a href="#">°F</a></span>
       </div>
       <div class="col-6">
         <ul>
@@ -37,13 +42,12 @@
           <li>Wind: 2 km/h</li>
         </ul>
       </div>
+      </div>  
       <small>
         <a href="https://github.com/buketh/Vanilla-app" target="_blank"
-          >Open-source code</a
-        >
+          >Open-source code</a>
         by Buket Hepgünay
       </small>
-      </div>  
     </div>
     <script src="src/app.js"></script>
   </body>
