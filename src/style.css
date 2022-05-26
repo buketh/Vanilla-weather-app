@@ -37,9 +37,9 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid #132743;
   border-radius: 5px;
-  background-color: rgb(160, 188, 192);
+  background-color: #ffcbcb;
 }
 
 .overview {
@@ -53,7 +53,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: black;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -70,8 +70,8 @@ li:first-letter {
   cursor: default;
 }
 .btn-primary {
-  background-color: cadetblue;
-  border: rgb(59, 170, 165);
+  background-color: #132743;
+  border: #132743;
 }
 
 .weather-temperature .active:hover {
